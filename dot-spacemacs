@@ -330,7 +330,7 @@ you should place your code here."
 (set-face-attribute 'default nil :family "Victor Mono" :height 120)
 (setq-default indent-tabs-mode nil)
 
-(setq org-agenda-files (list "~/Google Drive/org/" "~/Google Drive/org/interviews/"))
+(setq org-agenda-files (list "path-to-folder" "path-to-folder"))
 (setq org-todo-keywords
       '((sequence "TODO" "FEEDBACK" "VERIFY" "INPROGRESS" "|" "DONE" "DELEGATED")))
 
